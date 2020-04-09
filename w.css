@@ -1,0 +1,290 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@IMPORT url( http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+ 
+
+
+
+
+body
+
+
+{
+	margin: 0;
+	background: #222;
+  font-family: ‘Amiri’, serif;
+
+
+  
+  font-weight: 100;
+  font-family:  "Droid Arabic Kufi", "Open Sans",sans-serif;
+
+  width:1360px  ;
+
+  height:768px ;
+}
+
+
+
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+   border-right: none;
+  padding: 5px;  
+  height: 20px;
+  border-radius: 1px 0 0 1px;
+  outline: none;
+ }
+
+.searchTerm:focus{
+  color: rgb(0, 0, 0);
+}
+
+.searchButton {
+  width: 45px;
+  
+  height: 40px;
+  background-image:  url(./imag/Very-Basic-Search-icon.png)
+   ;
+  text-align: center;
+  color: #de2438;
+   cursor: pointer;
+  font-size: 20px;
+
+
+  transform: translate(-8%, -8%);
+
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+
+   
+  width: 15%;
+  position: absolute;
+  top: 10%;
+  left:15%;
+  transform: translate(-50%, -50%);
+
+
+  
+}
+
+
+
+
+
+
+
+
+.container {
+	width:90%;
+	margin:   auto;
+}
+
+header {
+  background-image: url(./imag/hader.png)    ;
+  width:1360px  ;
+
+  height:768px ;
+ 
+}
+
+ 
+
+header::after {
+  content:  ' ';
+  display: table;
+  clear: both;
+ 
+}
+
+
+
+
+ 
+.card {
+  width:400px;
+   
+  background:hsl(0, 0%, 100%);
+  padding:15px 20px;
+  border-radius:25px;
+  position:relative;
+  clip-path:circle(12.5% at 86.6% 20%);
+  transition:all 500ms ease-in-out;
+
+
+  position: absolute;  
+
+  top:  5px;
+  left: 900.4px;
+
+
+ 
+ 
+
+ 
+}
+.card .info-btn {
+  position:absolute;
+  width:100px;
+  height:117px;
+   right:19px;
+  top:32px;
+   
+  border-radius:50%;
+  text-align:center;
+  line-height:200px;
+  transition:all 300ms ease-in-out;
+  position: absolute;  
+ 
+  
+}
+
+
+
+
+
+.card:hover {
+  clip-path:circle(75%);
+}
+.card:hover .info-btn {
+  opacity:0;
+}
+
+
+.p1
+
+{
+  color: rgb(0, 0, 0);
+text-align:      right;
+ 
+font-size: 80%;
+}
+
+
+
+.كرامة
+{     position: absolute;  
+ width: 20%;
+ height: 10%;
+  top: 300px;
+  right:500px ;          
+  transform: scale(1);
+ 
+  cursor: zoom-in;
+       
+   }
+.كرامة  :hover
+{
+  transform: scale(1.5);
+}
+
+
+.كرامة:hover ::before {
+  transform:(50px);
+   }
+
+ 
+  
+ .targl
+{ 
+  
+  position: absolute;  
+   top:  0px;
+opacity: .2;
+margin-left : 5px  ;
+  transition: all 3.5s linear;
+ 
+ }
+ 
+
+.targl:hover 
+{
+  transform: translateX(400px);
+ }
+  
+.targl:hover ::before {
+  width:20%;
+}
+
+nav {
+  float: left ;
+}
+
+.slad{
+  position: absolute;  
+
+top: 0px;
+left: 53.5px;
+ }
+
+
+
+nav ul {
+ 
+  margin:60;
+  padding: 0;
+  list-style: none;
+  margin-right:0px;
+  position: absolute;  
+  top: 60px;
+  left: 50px;
+}
+
+nav li {
+ color: rgb(15,100, 36)  ;
+ 
+  margin-left : 23px  ;
+  padding-top: 25px;
+  list-style-image:url(./imag/ur.png);
+   height: 10%;
+  width: 20;
+  
+
+}
+
+nav a {
+  
+  color: rgb(255, 255, 255);
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+}
+
+nav a:hover {
+  color: rgb(255, 230, 0);
+  font-size:200%;
+}
+
+ 
+nav a:hover::before {
+  width:20%;
+}
+
+
+
+
+
+.page1
+
+{
+background-color: royalblue;
+ 
+
+width: 100%;
+height: 50%;
+
+}
